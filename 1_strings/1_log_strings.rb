@@ -22,7 +22,7 @@ print 'Hello World'
 greeting = 'Greetings!'
 puts greeting
 
-#using a method
+# using a method
 def say_hello(what_to_say)
   puts what_to_say
 end
