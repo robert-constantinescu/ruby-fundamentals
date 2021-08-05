@@ -26,6 +26,12 @@ by default ruby will convert the keys to symbols and NOT strings
 another_hash_ex = {:username => 'user_1', :password => 'sample_pass', :email => 'sample@mail'}
 another_hash_ex[:username] => #{another_hash_ex[:username]}
 
+These keys are not strings.
+When you place a colon in front of a simple word, you get a symbol.
+Symbols are cheaper than strings (in terms of computer memory.)
+
+If you use a word over and over in your program, use a symbol.
+Rather than having thousands of copies of that word in memory, +++  the computer will store the symbol only once +++.
 "
 
 puts " ===  iterate through the hash:    ===
