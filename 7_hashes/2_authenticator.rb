@@ -1,9 +1,9 @@
 credentials = [
   { username: 'rob', password: 'pass1' },
-  { username: 'jon', password: 'password2' },
-  { username: 'arya', password: 'password3' },
-  { username: 'flash', password: 'password4' },
-  { username: 'elon', password: 'password5' }
+  { username: 'jon', password: 'pass2' },
+  { username: 'arya', password: 'pass3' },
+  { username: 'flash', password: 'pass4' },
+  { username: 'elon', password: 'pass5' }
 ]
 
 def authenticate_user(user, password, user_list)
